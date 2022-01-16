@@ -1,14 +1,14 @@
-const imagemA = document.querySelector('#imgA');
+const imagemA = document.querySelector('#imagemA');
 const nomeDoPersonagemA = document.querySelector('#nomeA');
 const especieA = document.querySelector('#especieA');
 const condicaoA = document.querySelector('#condicaoA');
 
-const imagemB = document.querySelector('#imgB');
+const imagemB = document.querySelector('#imagemB');
 const nomeDoPersonagemB = document.querySelector('#nomeB');
 const especieB = document.querySelector('#especieB');
 const condicaoB = document.querySelector('#condicaoB');
 
-const imagemC = document.querySelector('#imgC');
+const imagemC = document.querySelector('#imagemC');
 const nomeDoPersonagemC = document.querySelector('#nomeC');
 const especieC = document.querySelector('#especieC');
 const condicaoC = document.querySelector('#condicaoC');
@@ -37,5 +37,4 @@ pegarPersonagem = (imagem, nomeDoPersonagem, especie, condicao) => {
 
 botao.onclick = () => {pegarPersonagem(imagemA, nomeDoPersonagemA, especieA, condicaoA);
                        pegarPersonagem(imagemB, nomeDoPersonagemB, especieB, condicaoB);
-                       pegarPersonagem(imagemC, nomeDoPersonagemC, especieC, condicaoC);
-                      };
+                       pegarPersonagem(imagemC, nomeDoPersonagemC, especieC, condicaoC)};

@@ -18,9 +18,9 @@ main {
 }
 
 main > section img {
-    height: 700px;
+    height: 500px;
     margin: 15px 0;
-    width: 500px;
+    width: 400px;
 }
 
 main > section button {
@@ -40,7 +40,7 @@ main > section button {
 #detalhes-container {
     font-weight: bold;
     list-style-type: none;
-    width: 90%;
+    width: 50%;
 }
 
 #detalhes-container > li {
@@ -50,4 +50,19 @@ main > section button {
 
 #detalhes-container > li p{
     color: white;
+}
+
+#secao1 {
+    float:left;
+    width: 450px;
+}
+
+#secao2 {
+    float:left;
+    width:450px;
+}
+
+#secao3 {
+    float:right;
+    width:300px;
 }
