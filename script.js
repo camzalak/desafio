@@ -36,6 +36,6 @@ pegarPersonagem = () => {
     })
 };
 
-botao.onclick = () => {pegarPersonagem(imagemA, nomeDoPersonagem1, especie1, condicao1);
-                       pegarPersonagem(imagemB, nomeDoPersonagem2, especie2, condicao2);
-                       pegarPersonagem(imagemC, nomeDoPersonagem3, especie3, condicao3)};
+botao.onclick = () => {pegarPersonagem(imagemA, nomeDoPersonagemA, especieA, condicaoA);
+                       pegarPersonagem(imagemB, nomeDoPersonagemB, especieB, condicaoB);
+                       pegarPersonagem(imagemC, nomeDoPersonagemC, especieB, condicaoC)};
